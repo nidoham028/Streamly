@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Streamly/build.gradle",
+      "selection": {
+        "end": {
+          "column": 41,
+          "index": 212,
+          "line": 3
+        },
+        "start": {
+          "column": 41,
+          "index": 212,
+          "line": 3
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Streamly/build.gradle"
+}

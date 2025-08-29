@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Streamly</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="btn_nav_home">Home</string>
+    <string name="btn_nav_subscription">Subscription</string>
+    <string name="btn_nav_library">Library</string>
+    <string name="btn_nav_community">Community</string>
+    
+    <string name="search">Search</string>
+    <string name="menu">Menu</string>
+</resources>

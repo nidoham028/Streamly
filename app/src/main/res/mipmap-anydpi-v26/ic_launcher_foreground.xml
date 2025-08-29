@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background transparent -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- White Play Button Triangle, 63% width (10% reduction from 70%), 56% height -->
+    <group
+        android:scaleX="0.63"
+        android:scaleY="0.56"
+        android:translateX="19.98"
+        android:translateY="23.76">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M38,28 L38,80 L78,54 Z" />
+    </group>
+</vector>```
