@@ -18,10 +18,21 @@ public class SplashActivity extends AppCompatActivity {
 
         // Delay then launch MainActivity
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            launcher(true);
+        }, SPLASH_DELAY);
+    }
+
+    private void launcher(final boolean mode) {
+    	if(mode) {
+    		Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+            startActivity(intent);
+            overridePendingTransition(0,0);
+            finish(); // close SplashActivity
+    	} else {
             Intent intent = new Intent(SplashActivity.this, MainActivity.class);
             startActivity(intent);
             overridePendingTransition(0,0);
             finish(); // close SplashActivity
-        }, SPLASH_DELAY);
+        }
     }
 }
